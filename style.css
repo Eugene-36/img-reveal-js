@@ -19,7 +19,6 @@ body {
 .option-second,
 .option-third,
 .option-fourth {
-  /* width: 350px; */
   width: 50px;
   height: 350px;
   border-radius: 28px;
@@ -62,24 +61,41 @@ body {
   transition: 0.5s;
 }
 .option-second {
-  background-image: url('./img/st.jpg');
+  background-image: url('./img/ic-bg-hopper.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .option-third {
-  background-image: url('./img/st-3.png');
+  background-image: url('./img/ic-bg-eddie.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .option-fourth {
-  background-image: url('./img/monster-st.webp');
+  background-image: url('./img/ic-bg-dustin.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
+.eddit {
+  background-image: url('./img/ic-eddie.png');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+.eleven {
+  background-image: url('./img/ic-eleven.png');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+.hopper {
+  background-image: url('./img/ic-hopper.png');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
 .option,
 .option-second,
 .option-third {
@@ -100,6 +116,11 @@ body {
 }
 .info div {
   color: #fff;
+}
+
+.icon-parameters {
+  width: 30px;
+  height: 30px;
 }
 
 @keyframes showBlock {
